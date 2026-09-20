@@ -15,6 +15,10 @@
     {
       "name": "4K小盒子",
       "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/4k.json"
+    },
+    {
+      "name": "剧荒克星",
+      "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/gaops.json"
     }
   ]
 }

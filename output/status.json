@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20 15:40:09",
+  "updated_at": "2026-09-20 19:03:56",
   "repo": "HEFIVE1102/tvbox-ysc-config",
   "sources": [
     {
@@ -72,6 +72,13 @@
       "ok": false,
       "used_url": null,
       "error": "404 Client Error:  for url: https://9877.kstore.space/AnotherD/api.json"
+    },
+    {
+      "id": "gaops",
+      "name": "剧荒克星",
+      "ok": true,
+      "used_url": "https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/tvbox.json",
+      "error": null
     }
   ]
 }
