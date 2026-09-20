@@ -1,5 +1,5 @@
 {
-  "description": "影视仓 / TVBox 配置源列表：聚合肥猫、饭太硬、王二小、讴歌（欧歌）、摸鱼、OK、小米、巧记、4K小盒子、潇洒等公开接口",
+  "description": "影视仓 / TVBox 配置源列表：聚合肥猫、饭太硬、王二小、讴歌（欧歌）、摸鱼、OK、小米、巧记、4K小盒子、潇洒、剧荒克星等公开接口",
   "update_interval_hours": 12,
   "sources": [
     {
@@ -94,6 +94,13 @@
       "urls": [
         "https://9877.kstore.space/one.json",
         "https://9877.kstore.space/AnotherD/api.json"
+      ]
+    },
+    {
+      "id": "gaops",
+      "name": "剧荒克星",
+      "urls": [
+        "https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/tvbox.json"
       ]
     }
   ]
