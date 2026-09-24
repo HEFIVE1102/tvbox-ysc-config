@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 09:04:22",
+  "updated_at": "2026-09-24 11:55:49",
   "repo": "HEFIVE1102/tvbox-ysc-config",
   "sources": [
     {
@@ -68,10 +68,10 @@
     },
     {
       "id": "xiaosa",
-      "name": "潇洒",
-      "ok": false,
-      "used_url": null,
-      "error": "404 Client Error:  for url: https://9877.kstore.space/AnotherD/api.json"
+      "name": "河币聚合",
+      "ok": true,
+      "used_url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/usable.json",
+      "error": null
     },
     {
       "id": "gaops",
