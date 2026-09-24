@@ -90,10 +90,10 @@
     },
     {
       "id": "xiaosa",
-      "name": "潇洒",
+      "name": "河币聚合",
       "urls": [
-        "https://9877.kstore.space/one.json",
-        "https://9877.kstore.space/AnotherD/api.json"
+        "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/usable.json",
+        "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/all.json"
       ]
     },
     {
