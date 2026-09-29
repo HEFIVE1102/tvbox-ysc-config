@@ -1,14 +1,13 @@
 {
-  "updated_at": "2026-09-29 16:10:43",
+  "updated_at": "2026-09-30 03:14:53",
   "repo": "HEFIVE1102/tvbox-ysc-config",
   "sources": [
     {
       "id": "feimao",
       "name": "肥猫",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "401 Client Error:  for url: https://6296.kstore.vip/facat.json",
-      "cached": true
+      "used_url": "http://肥猫.net/tv",
+      "error": null
     },
     {
       "id": "wangerxiao",
