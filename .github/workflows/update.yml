@@ -2,9 +2,12 @@ name: Auto Update TVBox Configs
 
 # 注意：GitHub Actions 的 on 字段需加引号，避免被部分 YAML 解析器当作布尔值
 "on":
-  # 定时触发：每天 02:00 和 14:00（UTC）自动更新
+  # 定时触发：每月 1 日 03:00（UTC）自动更新一次
+  # 2026-10-19: 由每日 2 次（0 2,14 * * *）改为每月 1 次 —— fork 的 Actions 用量规模会触发
+  # GitHub 服务端限流（dispatch 报 422 "Actions has been disabled for this repository"），
+  # 降频是防止再次被停用的前提。
   schedule:
-    - cron: "0 2,14 * * *"
+    - cron: "0 3 1 * *"
   # 支持在 GitHub Actions 页面手动触发
   workflow_dispatch:
   # 修改配置或脚本后 push 时触发（仅监听 config/scripts，避免自动提交 output/ 引发死循环）
