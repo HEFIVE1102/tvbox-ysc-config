@@ -44,6 +44,38 @@ SOURCE_INTERVAL = 3  # 每个源之间的间隔秒数（降低被限流概率）
 # 判定"像 TVBox 单仓配置"的顶层字段
 TVBOX_KEYS = ("sites", "spiders", "lives", "store", "exts", "parses", "flags")
 
+# 上游少数条目名称存在乱码；只修显示名，不改 key/API/ext/播放规则。
+DISPLAY_NAME_OVERRIDES = {
+    "csp_Jianpian": "荐片",
+    "csp_Bili": "哔哩哔哩",
+    "csp_AppRJ": "AppRJ",
+    "csp_Czsapp": "Czsapp",
+    "csp_Gz360": "G站360",
+    "csp_Hxq": "鱼鲜泉",
+    "csp_Kugou": "酷狗音乐",
+    "csp_MiSou": "秘搜",
+    "csp_AppQi": "AppQi",
+    "csp_Duopan": "多盘",
+}
+
+
+def normalize_display_names(data: dict) -> dict:
+    """仅覆盖受影响条目的显示名，保留其余字段原样。"""
+    data = dict(data)
+    sites = []
+    for site in data.get("sites", []) or []:
+        if not isinstance(site, dict):
+            sites.append(site)
+            continue
+        api = site.get("api")
+        override = DISPLAY_NAME_OVERRIDES.get(api)
+        if override and any("\u0400" <= char <= "\u052f" for char in str(site.get("name", ""))):
+            site = dict(site)
+            site["name"] = override
+        sites.append(site)
+    data["sites"] = sites
+    return data
+
 
 def _strip_js_comments(text: str) -> str:
     """剔除 JSON 中内嵌的 // 行注释（部分接口会在字段后追加免责注释）。"""
@@ -131,7 +163,7 @@ def fetch_config(url: str) -> dict:
             data = parse_json_lenient(resp.text)
             if not is_valid_tvbox_config(data):
                 raise ValueError("返回内容不是 TVBox 配置（缺少 sites/spiders/lives 等字段）")
-            return data
+            return normalize_display_names(data)
         except Exception as e:  # noqa: BLE001
             last_err = e
             text_len = len(getattr(resp, "text", "") or "") if "resp" in locals() else -1
