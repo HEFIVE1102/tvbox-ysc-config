@@ -5035,21 +5035,6 @@
       "_type": "综合-蜘蛛源"
     },
     {
-      "key": "иҚҗзүҮ",
-      "name": "рҹҺ¬в”ғиҚҗзүҮв”ғеҪұи§Ҷ",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "playerType": "2",
-      "ext": "https://api.ztcgi.com",
-      "group": "综合-蜘蛛源",
-      "_health": "degraded",
-      "_checked_at": "2026-09-30 07:17:48",
-      "_latency_ms": 68,
-      "_level": null,
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
       "key": "csp_appysv2_小七影视",
       "name": "小七影视(萝卜)",
       "type": 3,
@@ -5270,28 +5255,6 @@
       "_type": "综合-蜘蛛源"
     },
     {
-      "key": "csp_е°‘е„ҝ",
-      "name": "рҹ“ҡв”ғе°‘е„ҝв”ғж•ҷиӮІ",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      },
-      "group": "综合-蜘蛛源",
-      "_health": "healthy",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 2319,
-      "_level": "C5",
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
       "key": "紫金",
       "name": "紫金丨APP",
       "type": 3,
@@ -5449,20 +5412,6 @@
       "_checked_at": "2026-10-02 12:15:33",
       "_latency_ms": 12977,
       "_level": "C2",
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
-      "key": "жҪ®жөҒ",
-      "name": "рҹҸңв”ғжҪ®жөҒв”ғAPP",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "ext": "http://v.rbotv.cn",
-      "group": "综合-蜘蛛源",
-      "_health": "degraded",
-      "_checked_at": "2026-09-30 07:17:48",
-      "_latency_ms": 128,
-      "_level": null,
       "_source": null,
       "_type": "综合-蜘蛛源"
     },
@@ -7957,24 +7906,6 @@
       "_type": "综合-蜘蛛源"
     },
     {
-      "key": "еҺӮй•ҝ",
-      "name": "рҹҸӯв”ғеҺӮй•ҝв”ғеҪұи§Ҷ",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czzy89.com",
-      "group": "综合-蜘蛛源",
-      "_health": "degraded",
-      "_checked_at": "2026-09-30 07:17:48",
-      "_latency_ms": 2827,
-      "_level": null,
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
       "key": "zxzj-2",
       "name": "🍊在线┃秒播",
       "type": 3,
@@ -8974,21 +8905,6 @@
       "_checked_at": "2026-10-02 12:15:33",
       "_latency_ms": 1089,
       "_level": "C2",
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
-      "key": "xiaosa_csp_Gz360",
-      "name": "рҹҚүв”ғз“ңеӯҗв”ғеҪұи§Ҷ",
-      "type": 3,
-      "api": "csp_Gz360",
-      "playerType": 2,
-      "group": "综合-蜘蛛源",
-      "searchable": 1,
-      "_health": "healthy",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 65122,
-      "_level": "C3",
       "_source": null,
       "_type": "综合-蜘蛛源"
     },
@@ -12808,70 +12724,6 @@
       "_checked_at": "2026-10-02 12:15:33",
       "_latency_ms": 244,
       "_level": "C1",
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
-      "key": "йҹ©еңҲ",
-      "name": "вӯ•в”ғйҹ©еңҲ в”ғAPP",
-      "type": 3,
-      "api": "csp_Hxq",
-      "ext": " http://www.е°ҸдёҚзӮ№.com/api/2026/fishhxq.php",
-      "group": "综合-蜘蛛源",
-      "_health": "healthy",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 4078,
-      "_level": "C5",
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
-      "key": "й…·зӢ—",
-      "name": "рҹҗҫв”ғй…·зӢ—в”ғйҹід№җ",
-      "type": 3,
-      "api": "csp_Kugou",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "й…·зӢ—",
-            "type_id": "kugou"
-          }
-        ]
-      },
-      "group": "综合-蜘蛛源",
-      "_health": "degraded",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 178,
-      "_level": "C2",
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
-      "key": "зұіжҗң",
-      "name": "рҹҢ–в”ғзұіжҗңв”ғзҪ‘зӣҳ",
-      "type": 3,
-      "api": "csp_MiSou",
-      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
-      "group": "综合-蜘蛛源",
-      "_health": "degraded",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 250,
-      "_level": "C2",
-      "_source": null,
-      "_type": "综合-蜘蛛源"
-    },
-    {
-      "key": "е…үзӣҳ",
-      "name": "рҹ“Җв”ғе…үзӣҳв”ғAPP",
-      "type": 3,
-      "api": "csp_AppQi",
-      "ext": "http://103.217.190.91:5566|hagYExMdMkeWfemK",
-      "group": "综合-蜘蛛源",
-      "_health": "degraded",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 12797,
-      "_level": "C2",
       "_source": null,
       "_type": "综合-蜘蛛源"
     },
@@ -17943,32 +17795,6 @@
       "_type": "综合-网盘"
     },
     {
-      "key": "xiaosa_csp_FeiMaoUC",
-      "name": "вҡЎв”ғй—Әз”өв”ғдјҳжұҗ",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://shandian.blog/",
-          "http://sd.sduc.site/"
-        ],
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        },
-        "url_key": "FeiMaoUC"
-      },
-      "group": "综合-网盘",
-      "searchable": 1,
-      "_health": "healthy",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 60740,
-      "_level": "C3",
-      "_source": null,
-      "_type": "综合-网盘"
-    },
-    {
       "key": "云速",
       "name": "☁️云速┃影视",
       "type": 3,
@@ -20504,41 +20330,6 @@
       "_checked_at": "2026-10-02 12:15:33",
       "_latency_ms": 2667,
       "_level": "C1",
-      "_source": null,
-      "_type": "短剧"
-    },
-    {
-      "key": "csp_XBPQ_起看",
-      "name": "[606ms|123] 🧿悦享┃蓝光",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://m.yncmfs.com/",
-        "数组": "class=\"module-item-pic\"&&</div>",
-        "链接": "href=\"&&\"",
-        "图片": "data-src=\"&&\"",
-        "标题": "title=\"&&\"",
-        "播放数组": "class=\"scroll-content\"&&</div>",
-        "播放列表": "<a&&a>[不包含:дрр滈凊]",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "class=\"module-tab-item&&</div>",
-        "线路标题": "<span>&&</span>",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "https://m.yncmfs.com/vssysw/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$31"
-      },
-      "jar": "./deps/feishu-sync/lwlxh/tvhome/raw/master/o.jar",
-      "group": "短剧",
-      "_health": "degraded",
-      "_checked_at": "2026-10-02 12:15:33",
-      "_latency_ms": 13952,
-      "_level": "C2",
       "_source": null,
       "_type": "短剧"
     },
