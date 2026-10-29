@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-29 15:04:18（北京时间） · 成功 **6/6** 个源
+> 🔄 最近更新：2026-10-29 16:23:45（北京时间） · 成功 **5/5** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -20,7 +20,6 @@
 | 王二小 | ✅ 成功 | `https://d.kstore.dev/download/9280/wex.json` |
 | 讴歌 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
-| 河币聚合 | ✅ 成功 | `https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/usable.json` |
 | 剧荒克星 | ✅ 成功 | `https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/tvbox.json` |
 <!-- STATUS_END -->
 
