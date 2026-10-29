@@ -5036,7 +5036,7 @@
     },
     {
       "key": "иҚҗзүҮ",
-      "name": "рҹҺ¬в”ғиҚҗзүҮв”ғеҪұи§Ҷ",
+      "name": "荐片",
       "api": "csp_Jianpian",
       "type": 3,
       "playerType": "2",
@@ -5271,7 +5271,7 @@
     },
     {
       "key": "csp_е°‘е„ҝ",
-      "name": "рҹ“ҡв”ғе°‘е„ҝв”ғж•ҷиӮІ",
+      "name": "哔哩哔哩",
       "type": 3,
       "api": "csp_Bili",
       "playerType": 2,
@@ -5454,7 +5454,7 @@
     },
     {
       "key": "жҪ®жөҒ",
-      "name": "рҹҸңв”ғжҪ®жөҒв”ғAPP",
+      "name": "AppRJ",
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "http://v.rbotv.cn",
@@ -7958,7 +7958,7 @@
     },
     {
       "key": "еҺӮй•ҝ",
-      "name": "рҹҸӯв”ғеҺӮй•ҝв”ғеҪұи§Ҷ",
+      "name": "Czsapp",
       "type": 3,
       "playerType": "2",
       "api": "csp_Czsapp",
@@ -8979,7 +8979,7 @@
     },
     {
       "key": "xiaosa_csp_Gz360",
-      "name": "рҹҚүв”ғз“ңеӯҗв”ғеҪұи§Ҷ",
+      "name": "G站360",
       "type": 3,
       "api": "csp_Gz360",
       "playerType": 2,
@@ -12813,7 +12813,7 @@
     },
     {
       "key": "йҹ©еңҲ",
-      "name": "вӯ•в”ғйҹ©еңҲ в”ғAPP",
+      "name": "鱼鲜泉",
       "type": 3,
       "api": "csp_Hxq",
       "ext": " http://www.е°ҸдёҚзӮ№.com/api/2026/fishhxq.php",
@@ -12827,7 +12827,7 @@
     },
     {
       "key": "й…·зӢ—",
-      "name": "рҹҗҫв”ғй…·зӢ—в”ғйҹід№җ",
+      "name": "酷狗音乐",
       "type": 3,
       "api": "csp_Kugou",
       "playerType": 2,
@@ -12849,7 +12849,7 @@
     },
     {
       "key": "зұіжҗң",
-      "name": "рҹҢ–в”ғзұіжҗңв”ғзҪ‘зӣҳ",
+      "name": "秘搜",
       "type": 3,
       "api": "csp_MiSou",
       "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
@@ -12863,7 +12863,7 @@
     },
     {
       "key": "е…үзӣҳ",
-      "name": "рҹ“Җв”ғе…үзӣҳв”ғAPP",
+      "name": "AppQi",
       "type": 3,
       "api": "csp_AppQi",
       "ext": "http://103.217.190.91:5566|hagYExMdMkeWfemK",
@@ -17944,7 +17944,7 @@
     },
     {
       "key": "xiaosa_csp_FeiMaoUC",
-      "name": "вҡЎв”ғй—Әз”өв”ғдјҳжұҗ",
+      "name": "多盘",
       "type": 3,
       "api": "csp_Duopan",
       "filterable": 1,
