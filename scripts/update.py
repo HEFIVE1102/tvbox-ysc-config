@@ -88,8 +88,29 @@ def idn_encode(url: str) -> str:
     )
 
 
+def _contains_cyrillic(value) -> bool:
+    """递归识别配置中误解码后残留的西里尔字符。"""
+    if isinstance(value, str):
+        return any("\u0400" <= char <= "\u052f" for char in value)
+    if isinstance(value, dict):
+        return any(_contains_cyrillic(key) or _contains_cyrillic(item) for key, item in value.items())
+    if isinstance(value, list):
+        return any(_contains_cyrillic(item) for item in value)
+    return False
+
+
+def clean_mojibake(data: dict) -> dict:
+    """丢弃含乱码的列表项，保留同一上游的其余有效内容。"""
+    data = dict(data)
+    for field in ("sites", "lives", "parses", "doh", "rules", "flags", "exts"):
+        items = data.get(field)
+        if isinstance(items, list):
+            data[field] = [item for item in items if not _contains_cyrillic(item)]
+    return data
+
+
 def is_valid_tvbox_config(data) -> bool:
-    """粗略校验：返回内容是否像 TVBox/影视仓 单仓配置。"""
+    """粗略校验：返回内容是否像 TVBox/影视仓单仓配置。"""
     if not isinstance(data, dict):
         return False
     return any(key in data for key in TVBOX_KEYS)
@@ -131,7 +152,7 @@ def fetch_config(url: str) -> dict:
             data = parse_json_lenient(resp.text)
             if not is_valid_tvbox_config(data):
                 raise ValueError("返回内容不是 TVBox 配置（缺少 sites/spiders/lives 等字段）")
-            return data
+            return clean_mojibake(data)
         except Exception as e:  # noqa: BLE001
             last_err = e
             text_len = len(getattr(resp, "text", "") or "") if "resp" in locals() else -1
