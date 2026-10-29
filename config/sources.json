@@ -1,5 +1,5 @@
 {
-  "description": "影视仓 / TVBox 配置源列表：肥猫、王二小、讴歌、4K小盒子、河币聚合、剧荒克星",
+  "description": "影视仓 / TVBox 配置源列表：肥猫、王二小、讴歌、4K小盒子、剧荒克星",
   "update_interval_hours": 12,
   "sources": [
     {
@@ -39,14 +39,6 @@
       "urls": [
         "http://xhztv.top/4k.json",
         "http://xhztv.top/xhz"
-      ]
-    },
-    {
-      "id": "xiaosa",
-      "name": "河币聚合",
-      "urls": [
-        "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/usable.json",
-        "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/all.json"
       ]
     },
     {
