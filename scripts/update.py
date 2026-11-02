@@ -8,8 +8,8 @@
   2. 对每个源依次尝试"主线 + 备用"多个地址，自动做中文域名 punycode 转换
   3. 校验返回内容是否为合法的 TVBox/影视仓 单仓配置（包含 sites/spiders/lives 等字段）
   4. 将每个源的最新配置保存到 output/<id>.json
-  5. 生成多仓订阅文件 output/多仓订阅.json（可直接填进影视仓的"订阅"或"多仓"）
-  6. 生成聚合单仓 output/单仓聚合.json（所有源 sites/lives/parses 合并去重）
+  5. 生成多仓订阅文件 output/multi.json（可直接填进影视仓的"订阅"或"多仓"）
+  6. 生成聚合单仓 output/single.json（所有源 sites/lives/parses 合并去重）
   7. 生成 shields 徽章 output/shield.json，并把各源状态写回 README
 兼容：本脚本同时兼容 GitHub Actions 自动运行 与 本地手动运行。
 在 GitHub Actions 中，环境变量 GITHUB_REPOSITORY 会被自动注入（格式 owner/repo），
@@ -381,13 +381,13 @@ def main() -> int:
         time.sleep(SOURCE_INTERVAL)
 
     # 生成多仓订阅文件（影视仓"订阅/多仓"格式）
-    sub_path = os.path.join(OUTPUT_DIR, "多仓订阅.json")
+    sub_path = os.path.join(OUTPUT_DIR, "multi.json")
     with open(sub_path, "w", encoding="utf-8") as f:
         json.dump({"urls": subscriptions}, f, ensure_ascii=False, indent=2)
 
     # 生成聚合单仓文件（把所有成功源的 sites/lives/parses 合并成一个单仓）
     merged = merge_configs(fetched)
-    merged_path = os.path.join(OUTPUT_DIR, "单仓聚合.json")
+    merged_path = os.path.join(OUTPUT_DIR, "single.json")
     if merged is not None:
         with open(merged_path, "w", encoding="utf-8") as f:
             json.dump(merged, f, ensure_ascii=False, indent=2)
