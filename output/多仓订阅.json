@@ -19,6 +19,10 @@
     {
       "name": "剧荒克星",
       "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/gaops.json"
+    },
+    {
+      "name": "风吹晚晚",
+      "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/fswws.json"
     }
   ]
 }

@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-29 16:23:45（北京时间） · 成功 **5/5** 个源
+> 🔄 最近更新：2026-11-02 13:19:45（北京时间） · 成功 **6/6** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -21,6 +21,7 @@
 | 讴歌 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
 | 剧荒克星 | ✅ 成功 | `https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/tvbox.json` |
+| 风吹晚晚 | ✅ 成功 | `https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json` |
 <!-- STATUS_END -->
 
 ## 二、仓库结构

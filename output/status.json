@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 16:23:45",
+  "updated_at": "2026-11-02 13:19:45",
   "repo": "HEFIVE1102/tvbox-ysc-config",
   "sources": [
     {
@@ -36,6 +36,13 @@
       "name": "剧荒克星",
       "ok": true,
       "used_url": "https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/tvbox.json",
+      "error": null
+    },
+    {
+      "id": "fswws",
+      "name": "风吹晚晚",
+      "ok": true,
+      "used_url": "https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json",
       "error": null
     }
   ]
