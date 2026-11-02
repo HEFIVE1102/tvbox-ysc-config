@@ -27,6 +27,10 @@
     {
       "name": "七星在线",
       "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/qixing.json"
+    },
+    {
+      "name": "挺好·厂长糯米线（46站，不卡/秒播）",
+      "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/thdjk.json"
     }
   ]
 }

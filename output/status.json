@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 13:48:13",
+  "updated_at": "2026-11-02 14:01:05",
   "repo": "HEFIVE1102/tvbox-ysc-config",
   "sources": [
     {
@@ -50,6 +50,13 @@
       "name": "七星在线",
       "ok": true,
       "used_url": "https://15487.kstore.space/%E4%B8%83%E6%98%9F%E5%9C%A8%E7%BA%BF.txt",
+      "error": null
+    },
+    {
+      "id": "thdjk",
+      "name": "挺好·厂长糯米线（46站，不卡/秒播）",
+      "ok": true,
+      "used_url": "https://ztha.top/TVBox/thdjk.json",
       "error": null
     }
   ]
