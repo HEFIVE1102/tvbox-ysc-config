@@ -23,6 +23,10 @@
     {
       "name": "风吹晚晚",
       "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/fswws.json"
+    },
+    {
+      "name": "七星在线",
+      "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/qixing.json"
     }
   ]
 }

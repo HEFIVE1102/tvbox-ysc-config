@@ -37,7 +37,7 @@
     "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
     "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
   ],
-  "warningText": "本配置由 6 个公开源自动聚合（含肥猫等），仅供学习交流，请勿商用",
+  "warningText": "本配置由 7 个公开源自动聚合（含肥猫等），仅供学习交流，请勿商用",
   "sites": [
     {
       "key": "豆瓣",
@@ -3023,6 +3023,1286 @@
       "ext": {
         "json": "https://fastly.jsdelivr.net/gh/jinenge/tvbox@main/lib/8f55d520f8d70056695740ef151744a7.txt"
       }
+    },
+    {
+      "key": "è±ç£",
+      "name": "ä»è¯ç¨æµè¯ç¦ä¼ æ­è´©åï¼è¯·24å°æ¶åå é¤",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "éç½®ä¸­å¿",
+      "name": "ç½çðéç½®",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "py_å¾ç±æ¸¸æ",
+      "name": "ææðâå¾ç±æ¸¸æ",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%90%BE%E7%88%B1%E6%B8%B8%E6%88%8F.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "å¤®è§é¢",
+      "name": "ææðâå¤®è§é¢",
+      "type": 3,
+      "jar": "https://15487.kstore.space/WvSpider.jar",
+      "api": "csp_WvSpider",
+      "ext": "https://15487.kstore.space/%E5%A4%AE%E8%A7%86%E7%9B%B4%E6%92%AD.js"
+    },
+    {
+      "key": "py_å¤®è§äº",
+      "name": "ææðâå¤®è§èç®åº",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%A4%AE%E5%BA%93%E4%BA%91.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "py_91çµè§",
+      "name": "ææðâ91çµè§ç´æ­",
+      "type": 3,
+      "api": "https://15487.kstore.space/91%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "py_å§OK",
+      "name": "ææðâå§OK",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E4%B8%B0%E4%B9%8B%E7%8E%B2%E8%A7%A3%E6%9E%90_%E5%89%A7OK.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "py_åå¶è",
+      "name": "ææðâåå¶è4K",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%9B%9B%E5%8F%B6%E8%8D%89.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "py_çç«",
+      "name": "ææðâçç«å½±è§",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E7%86%8A%E7%8C%AB%E7%A7%92%E6%92%AD.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "å¤ªä¹",
+      "name": "ææðâå¤ªä¹4K",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%A4%AA%E4%B9%99.js",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "py_è»å½©",
+      "name": "ææðâè»å½©4K",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E8%87%BB%E5%BD%A94K.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "æµ·æ£ ",
+      "name": "ææðâæµ·æ£ 4K",
+      "type": 3,
+      "api": "https://raw.gitcode.com/u013624795/jk/blobs/ca40a95bdebd1603644ab5e4df3f034a97e2ab32/apiv403shanzha.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0
+    },
+    {
+      "key": "æå½±",
+      "name": "ææðâæå½±4K",
+      "type": 3,
+      "api": "https://fastlink.cokey.xyz/f/5lO2Fd/%E6%9E%81%E5%BD%B1.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
+    },
+    {
+      "key": "ç«äº",
+      "name": "ææðâç«äº4K",
+      "type": 3,
+      "api": "https://meow.668yun.top/c/OSyjXkKVmZKs/ç«äº.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "changeable": 1
+    },
+    {
+      "key": "ææ²³",
+      "name": "ææðâææ²³4K",
+      "type": 3,
+      "jar": "https://15487.kstore.space/xiaosa0501.jar",
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
+        "dataKey": "kj37zs29q22jk96t",
+        "dataIv": "kj37zs29q22jk96t",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "çç¸å½±è§",
+      "name": "ææðâç£åçç¸4K",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E7%8B%90%E7%8B%B8%E5%90%9B.js",
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "changeable": 1
+    },
+    {
+      "key": "ä¼ä¼å",
+      "name": "ææðâä¼ä¼å",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E4%BC%98%E4%BC%98%E5%85%94.js",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "å§OK",
+      "name": "ææðâå§OK",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%89%A7OK%E5%BD%B1%E8%A7%86.js",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "77å½±è§",
+      "name": "ææðâ77å½±è§",
+      "type": 3,
+      "api": "https://15487.kstore.space/77%E5%BD%B1%E8%A7%86.js",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "èç",
+      "name": "ææðâç£åèç",
+      "api": "csp_JianPian",
+      "type": 3
+    },
+    {
+      "key": "ç­æ­å½±è§",
+      "name": "ææðâç­æ­å½±è§",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "NewGrV2",
+      "name": "ææðâå¤©éç§æ­",
+      "type": 3,
+      "api": "csp_NewGrV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "NGX/Tk9QUVJTVFVWV1hZWltcXYAuO9R6PJUzJ8LurteLAFbbvV0iNZ+03UsAkPGZUCdL34Yb5w9K0whedCIHbxUwT2ieu1Hjuum36msN+Q0kJgIv+yy535d/AUDssZmIxn/mnEdvIKgffbvEQF3AWQfmfhoKlFGD9hPtTDWPkbi7GWxCg135hE+ikycI+4dxEwlMubztw8DTDPJLsX/tAz/6pncYvbu/q8yoAXNVwWeYtVDMSKkigmIjJYNy98zY8q8JCPgBVZQxdPncLx7SXuDI+Z3C8o3A35cbYQNHxHtfylvqaxRd7EaW28mN/+0DpJ3eXv2MnkSXtrFsjCWTW1bTYr/6GI+JwhYmvv8ZeMq+jWLYl4wXnyuDVaDrO/+a7btmytta/pDA6KZOrJwpBQzn3MJq2vDIum+eorv2zXe4lzTIr8atPpsKj52BZ9HbAXbFsZ+U/youl7KGPMtc32DHa9cxZxuOHLLtxMdIo2GNecVy5yrGuT23h0K8Dr1t09+T"
+    },
+    {
+      "key": "py_æ åæç",
+      "name": "ææðâæ åæç",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E6%98%A0%E5%83%8F%E6%98%9F%E7%90%83.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "éµé³å½±è§",
+      "name": "ææðâéµé³å½±è§",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://meow.668yun.top/c/5aLF3ICoYrwK/xbpq.jar",
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "changeable": 1,
+      "ext": {
+        "ç®ä»": "è¯·ä¸è¦ç¸ä¿¡è§é¢ä¸­çå¹¿åï¼ä»¥åä¸å½åéªï¼+description\" content=\"&&\"",
+        "åç±»url": "https://www.knvod.com/vshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html"
+      }
+    },
+    {
+      "key": "å å³°",
+      "name": "ææðâå å³°å½±è§",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://meow.668yun.top/c/5aLF3ICoYrwK/xbpq.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": {
+        "åç±»url": "https://www.guan-feng.com/"
+      }
+    },
+    {
+      "key": "åäº«",
+      "name": "ææðâæ«å¶å½±è§",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/fy.py"
+    },
+    {
+      "key": "csp_GuaZi1",
+      "name": "ææðâçå­å½±è§",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "ext": {
+        "sites": "",
+        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+      },
+      "jar": "https://ncstatic.clewm.net/rsrc/2026/0606/11/e73824ddbe2d4f28b3e3ccc699d0f064.png;md5;8C8DA63F7C5D8628D0B40FD03632C3B4"
+    },
+    {
+      "key": "å¯å¯å½±è§",
+      "name": "ææðâå¯å¯å½±è§",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://15487.kstore.space/1118.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "è¯·æ±å¤´": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1#{{æ²å¥-c}}",
+        "ç¹æ®": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+        "æ²-c": "https://www.kkys04.com/æ¸²æç®æ :/name=\"t\".*?value=\"(.*?)\"/è¯·æ±å¤´(ç¹æ®)[å·¥å·:æ¸²æ#url]",
+        "æ²å¥-c": "{{æ²-c}}[å·¥å·:è¿å{{å¥-c}}]",
+        "å¥-c": "{{ååºå¤´}}[å·¥å·:Cookie$âset-cookie=\\[æªå\\]]",
+        "åå-c": "https://www.kkys04.com",
+        "ä¸»é¡µurl": "https://www.kkys04.com",
+        "æ°ç»": "<div class=\"module-item\">&&</a>",
+        "æ é¢": "<div class=\"v-item-title\">&&</div>",
+        "å¯æ é¢": "<span>&&</span>[ä¸å«:å¯å¯]",
+        "å¾ç": "{{äº-c}}+data-original=\"&&\"[ä¸å«:http]",
+        "é¾æ¥": "href=\"&&\"",
+        "å½±çå¹´ä»£": "class=\"detail-tags-item\">&&</a>",
+        "å½±çå°åº": "class=\"detail-tags-item\">&&</a>[å«åºå·:2]",
+        "å½±çç±»å": "class=\"detail-tags-item\">&&</a>[å«åºå·:3]",
+        "å¯¼æ¼": "å¯¼æ¼*</div>&&</div>",
+        "ä¸»æ¼": "æ¼å*</div>&&</div>",
+        "ç®ä»": "detail-desc\">&&</div>",
+        "çº¿è·¯æ°ç»": "<span class=\"source-item-label&&/span>[ä¸å«:4K(]",
+        "çº¿è·¯æ é¢": ">&&<",
+        "æ­æ¾æ°ç»": "<div class=\"episode-list&&</div>",
+        "æ­æ¾åè¡¨": "&&åå²(<a)",
+        "æ­æ¾æ é¢": ">&&<",
+        "æ­æ¾é¾æ¥": "href=\"&&\"",
+        "è·³è½¬æ­æ¾é¾æ¥": "const playSource = {*src*\"&&\"||TMDPPPP = '&&'[å·¥å·:è§£aes-Isu7fOAvI6!&IKpAbVdhf&^F]",
+        "è¿æ»¤è¯": "baidu.com",
+        "æç´¢url": "{{åå-c}}/search?t={{æ²-c}}&k={wd}",
+        "æç´¢äºæ¬¡æªå": "<div class=\"search-result-list&&<div class=\"pagenation-box",
+        "æç´¢æ°ç»": "<a&&</a>",
+        "æç´¢æ é¢": "title=\"&&\"",
+        "æç´¢å¯æ é¢": "<div class=\"tags\">&&</div>",
+        "æç´¢å¾ç": "{{äº-c}}+data-original=\"&&\"[ä¸å«:http]",
+        "æç´¢é¾æ¥": "href=\"&&\"",
+        "åç±»url": "{{åå-c}}/show/{cateId}-----{by}-{catePg}.html;;ad0m0s0xn",
+        "åç±»": "çµå½±$1#çµè§å§$2#ç»¼èº$4#å¨æ¼«$3#ç­å§$6",
+        "æåº": "ç»¼å$1#ææ°$2#æç­$3#è¯å$4",
+        "äº-c": "<script src=\"&&\"[åå«:rdul][å·¥å·:æºç #'æªå'â¬\"æªå\"]"
+      }
+    },
+    {
+      "key": "å³çå½±è§",
+      "name": "ææðâå³çå½±è§",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%8D%B3%E7%9C%8B.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "csp_Nmvod_QJ",
+      "name": "ææðâåå¼å½±è§",
+      "type": 3,
+      "jar": "https://15487.kstore.space/e210975c2c794cbc8bb1839b54ac213e.png",
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+    },
+    {
+      "key": "åå½±",
+      "name": "ææðâæ¶åå½±è§",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/292/340/4905535609A9C0CE9CC2F652D6D90BDA.jpg;md5;4905535609a9c0ce9cc2f652d6d90bda",
+      "api": "csp_T4Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
+    },
+    {
+      "key": "æ©ç®",
+      "name": "ææðâæ©ç®å½±è§",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 1,
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+      "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
+    },
+    {
+      "key": "çµå½±äººç",
+      "name": "ææðâçµå½±äººç",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E7%94%B5%E5%BD%B1%E4%BA%BA%E7%94%9F.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "name": "ææðâçå­å½±è§",
+      "key": "Guazi",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "sites": "",
+        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+      }
+    },
+    {
+      "key": "æ©æ±",
+      "name": "ææðâæ©æ±å½±è§",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "æ©æ±",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "publicIv": "ed5fdsgucxumegqa",
+        "dataKey": "RTRTUJZWWMO0ZWV6EFBOSURNCTK4PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.tjjiangh.android",
+        "host": "",
+        "site": "https://vip.123pan.cn/1848463092/cct/az5.txt",
+        "version": "3.0.1.9",
+        "decrypt": "1"
+      }
+    },
+    {
+      "key": "åè°",
+      "name": "ææðâåè°å½±è§",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "åè°",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
+        "publicIv": "ed5fdsgucxumegqa",
+        "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.muyue.tool",
+        "host": "",
+        "site": "https://vip.123pan.cn/1851089669/oss/az5.txt",
+        "version": "1.0.0.4",
+        "decrypt": "1"
+      }
+    },
+    {
+      "name": "ææðâç£åèç",
+      "key": "JPian",
+      "type": 3,
+      "api": "csp_JPianAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-ky1PAyMa8zMhSwSbYeoej9.gz"
+    },
+    {
+      "key": "4Kçµå½±ç½",
+      "name": "ææðâ4Kçµå½±ç½",
+      "type": 3,
+      "api": "https://15487.kstore.space/4K%E7%94%B5%E5%BD%B1%E7%BD%91.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "å¤§å¸å",
+      "name": "ææðâå¸åå½±è§",
+      "type": 3,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0416/20/1fe667cd217a0c314b8ca59310dbf45d.jpg;md5;a4f403a000bc5e4ebdd9da27fcb05852",
+      "api": "csp_AppV6",
+      "playerType": 2,
+      "ext": "7lj763gg0939790h44298182lk5j9k99k2g4ih53jl9i376l514k16hilj0443400h9k4jgh8312j1912818glikl7lh1jk9k4222k1kg696igkk32ig6lhj3kl50j08lkl6j0h6gi7k2j31jj0k7i1784l25g757hhkl42i7jg68illihj867l82g53532j62i92kljhj5llh498k24796l57j55ji0ji2g22i501jl541j9j4i68i5j602744l10413k457hl80l91j5l44139j23g64h27k08l5509h202gl84338hi17082hkj5746g298j640i002jk1265h745j289303h6i6j6j15jgkg15485h8g935hk83g9g7j661l4i557jl56h6l0h40i5j9hkiig7066523l2h24gj9k1083g6l2gihh2j5hhgkgij04j8900jhg4l6731hkhij7kk2i594536563674gki85li59jhk79067964197h5k7k2641h03l45074jkkklhik123407146l1i0jk90k1hgl151076ig7i4gi0858h62j37lh8l4hl519ghi7g04h2h900jlj7ll333i736549624gjk8k508g9499gj3jj7050jjhgh4i57326j83301i0kkl88040ih52gj8j0gk0h4g5g7lh561k2gk6k7k56h01598ji23g27k3i17878j92k2gj1l5ih8h0jj73k94g9hl5g7h229i10g099k09l958h3hk18l72h1j43gg7177g4h7ll8987644383606klgh9h4ll42h7293k694kl20j539g6jl17ig655461138jgj7306i1296k3i03586k6l32j5hlik4051187741218271j8j4g3i1h6719877l10k1ijl220i8hlil3j3g129ll3k2i5164lkg12k253kk1h8j5l0gki49jg25hlii704l5ih74439hlj9jih5ki53242ijgh6359i8i5j4h2j2i4581l244j4ij728490hk0k34542916i2lig57836gg7kji3l160234i24hik5g18h790488748j680k5i0l885lj66kjk78j2i57i5021g283ik9g38g62259h1lgi811ihki506k5934g7h737hg9360lll98l4j8i049903l1354lg00019g0934h005h8jjkl60j91k7j74i96h8h26hk59i653209lgj07g1g298k48jllgh00l4i742gi72l27038157gji9j32gh0k5672167k2588h31967l3867g50k503ik403781ki72j47hh4363l0708k4g961k4hl8g4j35ilk143h3424010i165lj612h50k68l61ghl9h80kh874k14ggk2ilg018hi5l1g34262196lkl45ih981jkl42271l4232k93hk8ih3g814i6h63h0g64l300i42il1g0454921j12h4844ii714ih71lg172326009812833h62kj8009kijk5hhg763031235l45h78614l7h9k579h6lj290i98851gll70024834hgj2lg5hk3l905i346gij11kl5j9i7h5j5k12hl061l488k061564g398i2150h9j343901865h7567g874i1gghl5ihg8il8hh0650h6308l2i5053997g8g12g16l3l7h5lhlji71i1i23h0ljl1h14688h7g13987h548h33k34hi6h2i63h424jhl1kik26kl3h60662846j6j0749l8kh95018kl1971j5j5gjk9hg70542391j77hjj65l127627h6h8h0hi003i2hih6h0k9k878lj858k30iljgik0l9248jk25l4h701l6gllhkhi54g24g926jgj884266514056805k2h15hh442i3170ilik20h88i561k0682k04459i154i03ikglg6220i4jii1g32067il925g450k0i1241l3il2jjl6k186gjj53h611il59k650i4kjhi87i798hg6h01g306ig104145ig9h68i092ghhh59jig99j12383792452h44206glk62g67gj204hk874l5li8646g65i9085244i092g70ig9h8657kg0413466ii87k9i32hglh24hi2li7174735i520ik608ilg71292838j5k1h39271ghg5288g930lg6h75626l71h8h5g011k9l9lgk691i04166h7996g452kij4l4l72881k6kl5701jl707hi415j8h3k67576966g2k94k03k0lj31995h2j26hi69jhjji162625l50j7790093hli0jjkh1ll804i3lhh40lk4k240kh48k0k16l544hg033k594gh0l93682l86h35i1i36klhgjg90lkl54746i2k63481h37hilj3ikig52h0j80k5gj6h879lk6g8ll6k616966h59h42l24h824ljj77g6l03kg260i80h2g2k123251j22jg36k5j14781i6197929il9j03k16h4l1i78693g45k64j0jl0k58hj8493h76gj2202470ig12lh2llj2l5k5541k4h506i3hij81lg9i037jgk22i2l3j12j6l394h51ii2ll0022j292h8036767i835k47071jl9illl2gli06524g66984902j6j1h5g788019hl4712032977h41l0k36073ig880g2jgklh26k736180591639h4k2gjk9gl2071h685923kl5363l5lj0ll91901g12kk29hll4280h9h51870j721516j6g66i379g203932726h42g927h19733k237492l8j0jh148gl95048l5524j4j0l2445130153i802169102i14g586h8g64j2lk28492169li3292877837108k7i9557h3jk31il2lklg494lgl4j91jig614216ki68i2j140l1jg03lk16lljg039h21kj313h8jk79h99j2g89j327i7h9052h9hj71721jg927340956k6jl4i7k0430"
+    },
+    {
+      "key": "è£¤ä½¬ç½æå½±è§",
+      "name": "ææðâç½æå½±è§",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "changeable": 0,
+      "ext": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/js/ç½æå¬çå½±å.js"
+    },
+    {
+      "key": "å¤©å ",
+      "name": "ææðâçµå½±å¤©å ",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "çµå½±å¤©å ",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "publicIv": "ed5fdsgucxumegqa",
+        "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.dytiantang.one",
+        "host": "",
+        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+        "version": "3.0.0.7",
+        "decrypt": "0"
+      }
+    },
+    {
+      "key": "19051",
+      "name": "ææðâ1905çµå½±ç½",
+      "type": 3,
+      "api": "csp_Web1905",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "åæ°",
+      "name": "ææðâåæ°è§é¢",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/%E5%8D%8E%E6%95%B0.py",
+      "changeable": 1
+    },
+    {
+      "key": "ç¬æ­",
+      "name": "ææðâç¬æ­åº",
+      "type": 3,
+      "api": "csp_Duboku"
+    },
+    {
+      "key": "ç±çå§",
+      "name": "ææðâç±çå§",
+      "type": 3,
+      "api": "https://pan.szfx.top/down.php/56ac2028f2dd8336dccad017927cbef1.py",
+      "ext": "http://43.248.117.123:4680"
+    },
+    {
+      "key": "çµå½±ä»åº1",
+      "name": "ææðâçµå½±ä»åº",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://15487.kstore.space/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://15487.kstore.space/%E7%94%B5%E5%BD%B1%E4%BB%93%E5%BA%93.json"
+    },
+    {
+      "key": "æè¾°å¤§æµ·",
+      "name": "ææðâæè¾°å¤§æµ·",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://15487.kstore.space/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://15487.kstore.space/%E6%98%9F%E8%BE%B0%E5%A4%A7%E6%B5%B7.json"
+    },
+    {
+      "key": "åå©è§é¢",
+      "name": "ææðâåå©è§é¢",
+      "type": 3,
+      "api": "csp_BiliYS",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/åå©è§é¢.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      }
+    },
+    {
+      "key": "360zy",
+      "name": "ææðâ360zy",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod?",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "å¨ä½ç",
+        "åå§ç",
+        "ç±æç",
+        "ç§å¹»ç",
+        "ææç",
+        "å§æç",
+        "æäºç",
+        "å¤è£ç",
+        "æ¬çç",
+        "ç¯ç½ªç",
+        "ç¾é¾ç",
+        "å½äº§å§",
+        "é¦æ¸¯å§",
+        "é©å½å§",
+        "æ¬§ç¾å§",
+        "å°æ¹¾å§",
+        "æ¥æ¬å§",
+        "æµ·å¤å§",
+        "æ³°å½å§",
+        "å¤§éç»¼èº",
+        "æ¸¯å°ç»¼èº",
+        "æ¥é©ç»¼èº",
+        "æ¬§ç¾ç»¼èº",
+        "å½äº§å¨æ¼«",
+        "æ¬§ç¾å¨æ¼«",
+        "æ¥é©å¨æ¼«",
+        "ç°ä»£é½å¸",
+        "èæ´æ¬ç",
+        "å¹´ä»£ç©¿è¶",
+        "å¤è£ä»ä¾ ",
+        "å¥³é¢æç±",
+        "æé¿éè¢­",
+        "åè½¬ç½å§"
+      ]
+    },
+    {
+      "key": "éå­",
+      "name": "ææðâéå­",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playurl": "json:https://lziplayer.com/?url=",
+      "categories": [
+        "å½äº§å§",
+        "å½äº§å¨æ¼«",
+        "æ³°å½å§",
+        "å°æ¹¾å§",
+        "é¦æ¸¯å§",
+        "æ¬§ç¾å§",
+        "é©å½å§",
+        "æ¥æ¬å§",
+        "å¨æ¼«",
+        "ä½è²",
+        "å§æç",
+        "å¨ä½ç",
+        "ç±æç",
+        "åå§ç"
+      ]
+    },
+    {
+      "key": "çå­å½±è§",
+      "name": "ææðâçå­å½±è§",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ç­å§èå",
+      "name": "ææðâç­å§èå",
+      "type": 4,
+      "style": {
+        "type": "rect",
+        "ratio": 1.485
+      },
+      "api": "https://xy.183933.xyz/php/jhdj.php/vod",
+      "genre": "shortdrama",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "csp_T4_çº¢æç­å§_xxy",
+      "name": "ææðâçº¢æç­å§",
+      "type": 4,
+      "api": "https://api.uumnet.com/tvbox/php/nxduanju_xxy.php?token=nxyyds",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "name": "ææðï½è±ªå ªç­å§",
+      "key": "è±ªå ªï½ç­å§",
+      "type": 3,
+      "api": "csp_HHkkAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://15487.kstore.space/awdm2.png"
+    },
+    {
+      "name": "ææðï½ææç­å§",
+      "key": "ææï½ç­å§",
+      "type": 3,
+      "api": "csp_BddjAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://15487.kstore.space/awdm2.png"
+    },
+    {
+      "name": "ææðï½åµåµç­å§",
+      "key": "åµåµï½ç­å§",
+      "type": 3,
+      "api": "csp_QmdjAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://15487.kstore.space/awdm2.png"
+    },
+    {
+      "name": "ææðï½ææç­å§",
+      "key": "ææï½ç­å§",
+      "type": 3,
+      "api": "csp_XydjAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://15487.kstore.space/awdm2.png"
+    },
+    {
+      "key": "Acfun",
+      "name": "ææðï½Aç«å¨æ¼«",
+      "type": 3,
+      "api": "https://fastlink.cokey.xyz/f/XB4Oik/Acfun.py"
+    },
+    {
+      "key": "4Kå¨æ¼«",
+      "name": "ææðï½4Kå¨æ¼«",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://15487.kstore.space/xyqxbpq.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "è¯·æ±å¤´": "User-Agent$MOBILE_UA",
+        "ç¼ç ": "UTF-8",
+        "ä¸»é¡µurl": "https://cn.agekkkk.com/",
+        "æ°ç»": "lazyload\"&&</a>",
+        "æ é¢": "title=\"&&\"",
+        "å¾ç": "data-original=\"&&\"",
+        "å¯æ é¢": "bbFB text-right\"><b>&&</b>",
+        "é¾æ¥": "href=\"&&\"",
+        "æ­æ¾æ°ç»": "class=\"play-list-content\"&&</ul>",
+        "æ­æ¾åè¡¨": "<a&&a>",
+        "æ­æ¾é¾æ¥": "href=\"&&\"",
+        "æ­æ¾æ é¢": ">&&</",
+        "çº¿è·¯æ°ç»": "href=\"\\#playlist&&</a>",
+        "çº¿è·¯æ é¢": "EasyTVä¸çº¿",
+        "è·³è½¬æ­æ¾é¾æ¥": "urlDecode(var player_*\"url\":\"&&\")",
+        "æç´¢url": "https://cn.agekkkk.com/search/{wd}----------{pg}---.html",
+        "æç´¢æ°ç»": "lazyload\"&&</a>",
+        "æç´¢æ é¢": "title=\"&&\"",
+        "æç´¢å¾ç": "data-original=\"&&\"",
+        "æç´¢å¯æ é¢": "bbFB text-right\"><b>&&</b>",
+        "æç´¢é¾æ¥": "href=\"&&\"",
+        "ç®ä»": "style=\"display: none;\">&&</span>",
+        "åç±»url": "https://cn.agekkkk.com/type/{cateId}-{catePg}.html",
+        "åç±»": "æ¥é©æ¼«$1#å½äº§æ¼«$2#å¨ææ¼«$5#ç¹æç$4#æ¬§ç¾æ¼«$3"
+      }
+    },
+    {
+      "key": "å·´å£«å¨æ¼«",
+      "name": "ææðï½å·´å£«å¨æ¼«",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://15487.kstore.space/%E5%B7%B4%E5%A3%AB%E5%8A%A8%E6%BC%AB.png"
+    },
+    {
+      "key": "æ¹èå¨æ¼«",
+      "name": "ææðä¸¨æ¹èå¨æ¼«",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.cyfz.top",
+        "dataKey": "e72cdfd629e8895d",
+        "dataIv": "e72cdfd629e8895d"
+      }
+    },
+    {
+      "key": "æ¼æ³¢å¨æ¼«",
+      "name": "ææðï½æ¼æ³¢å¨æ¼«",
+      "type": 3,
+      "searchable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://app.omofun1.top",
+        "dataKey": "66dc309cbeeca454",
+        "dataIv": "66dc309cbeeca454"
+      }
+    },
+    {
+      "key": "ååå¨æ¼«",
+      "name": "ææðï½ååå¨æ¼«",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.gugu3.com",
+        "dataKey": "nKfZ8KX6JTNWRzTD",
+        "dataIv": "nKfZ8KX6JTNWRzTD"
+      }
+    },
+    {
+      "key": "å¬æ­é³ä¹",
+      "name": "ææðä¸¨å¬æ­é³ä¹",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%90%AC%E6%AD%8C.js"
+    },
+    {
+      "key": "Cat_å¬æµ·",
+      "name": "ææðä¸¨å¬æµ· å¸¦æ­è¯",
+      "type": 3,
+      "api": "https://15487.kstore.space/tinghai_ting.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Cat_èåé³ä¹",
+      "name": "ææðä¸¨èåé³ä¹",
+      "type": 3,
+      "api": "https://15487.kstore.space/yinyue_juhe.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "qixing_MTV",
+      "name": "ææðï½é³ä¹åé",
+      "type": 3,
+      "jar": "https://oss4liview.moji.com/thd_file/2026/04/22/af3693c54efdb287866bcf0349f605c1.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c",
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
+      }
+    },
+    {
+      "key": "å¦å¦DJ",
+      "name": "ææðï½å¦å¦DJ",
+      "type": 3,
+      "api": "csp_Djuu",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "è½®åDJ",
+      "name": "ææðï½è½®åDJ",
+      "type": 3,
+      "api": "csp_Djlh",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "æ«å¶é³ä¹",
+      "name": "ææðï½æ«å¶é³ä¹",
+      "type": 3,
+      "jar": "https://gitee.com/lzxw9527/jiuyue/raw/master/bzc0423.png",
+      "api": "https://mpimg.cn/down.php/2090fedb67387ea1a1ad908a94eb0aa6.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Kugou",
+      "name": "ææðï½é·çé³ä¹",
+      "type": 3,
+      "api": "csp_Kugou",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "é·ç",
+            "type_id": "kugou"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ç½ææ­æ²ä¸è½½.py",
+      "name": "ææðï½ç½æé³ä¹",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E7%BD%91%E6%98%93%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD.py"
+    },
+    {
+      "key": "ä¸çå¬ä¹¦",
+      "name": "ææðï½ä¸çå¬ä¹¦",
+      "type": 3,
+      "api": "csp_TingShijie",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "è»èFM",
+      "name": "ææðï½è»èFM",
+      "type": 3,
+      "api": "csp_QingtingFM",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "ææ²å¤å¤",
+      "name": "ææðï½ææ²å¤å¤",
+      "type": 3,
+      "api": "csp_AppLY",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "py_åå¡ç´æ­",
+      "name": "ææâ½ï½åå¡ä½è²",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E5%92%96%E5%95%A1%E7%9B%B4%E6%92%AD.py",
+      "style": {
+        "type": "list"
+      },
+      "quickSearch": 0,
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "catèèä½è²",
+      "name": "ææâ½ï½èèä½è²",
+      "type": 3,
+      "api": "https://15487.kstore.space/%E8%9C%98%E8%9B%9B%E4%BD%93%E8%82%B2.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "changeable": 1
+    },
+    {
+      "key": "çç",
+      "name": "ææâ½ï½88çç",
+      "type": 3,
+      "jar": "https://file.icve.com.cn/file_doc/337/535/54485FADC1D244DC8CD5D5AEE59C6D51.jpg;md5;54485fadc1d244dc8cd5d5aee59c6d51",
+      "api": "csp_KanqiuGuard",
+      "timeout": 10,
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "çéä½è²",
+      "name": "ææâ½ï½çéä½è²",
+      "type": 3,
+      "api": "csp_QiutongTY",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "çå­ä½è²",
+      "name": "ææâ½ï½çå­ä½è²",
+      "type": 3,
+      "api": "csp_GuaziTY",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "310ç´æ­",
+      "name": "ææâ½â310çç",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "style": {
+        "type": "list"
+      },
+      "ext": "./lib/310ç´æ­.js"
+    },
+    {
+      "key": "360å§",
+      "name": "ææâ½â360çç",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "style": {
+        "type": "list"
+      },
+      "ext": "./lib/360å§.js"
+    },
+    {
+      "key": "Jrsjs",
+      "name": "ææâ½âjrsçè¿·",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/jrk.js",
+      "style": {
+        "type": "list"
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "åå©åé",
+      "name": "ð±åå©ï½åé",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://15487.kstore.space/%E5%93%94%E5%93%A9%E5%90%88%E9%9B%86.png",
+        "cookie": "https://15487.kstore.space/bl.png"
+      }
+    },
+    {
+      "key": "æ²é",
+      "name": "ð±åå©ï½æ²éå¨æ¼«",
+      "type": 3,
+      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260515/OR4S/0X0/05152129.png;md5;ef2f223e58730b09bc8acafbe0b6e54e",
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.309
+      },
+      "ext": {
+        "type": "æ²éç»¼å#æ²éæ±ç#æ²éä¿®ä»#æ²éæ«ä¸#æ²éè¯¡å¼#å®ç»æ²é#å¨æ¼«é¦",
+        "cookie": "http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt",
+        "msg": "124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="
+      }
+    },
+    {
+      "key": "åå©å¬ä¹¦",
+      "name": "ð±åå©ï½å¬ä¹¦",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "https://15487.kstore.space/bl.png",
+        "json": "https://15487.kstore.space/%E5%93%94%E5%93%A9%E5%90%AC%E4%B9%A6.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "åå©ç¸å£°",
+      "name": "ð±åå©ï½ç¸å£°",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "https://15487.kstore.space/bl.png",
+        "json": "https://15487.kstore.space/%E5%93%94%E5%93%A9%E7%9B%B8%E5%A3%B0.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "åå©å°å",
+      "name": "ð±åå©ï½å°å",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "https://15487.kstore.space/bl.png",
+        "json": "https://15487.kstore.space/%E5%93%94%E5%93%A9%E5%B0%8F%E5%93%81.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "åå©ææ²",
+      "name": "ð±åå©ï½ææ²",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "https://15487.kstore.space/bl.png",
+        "json": "https://15487.kstore.space/%E5%93%94%E5%93%A9%E6%88%8F%E6%9B%B2.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "æ­¦æ¯",
+      "name": "ð±åå©ï½æ­¦æ¯",
+      "type": 3,
+      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260515/OR4S/0X0/05152129.png;md5;ef2f223e58730b09bc8acafbe0b6e54e",
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/å¿ç«¥æ­¦æ¯.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "csp_XYQHiker_åå°è´",
+      "name": "ð°å°è´ï½å¿æ­",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/%E5%85%94%E5%B0%8F%E8%B4%9D.json",
+      "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
+    },
+    {
+      "key": "csp_XYQHiker_åå°è´2",
+      "name": "ð°è´è´ï½å¿æ­",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/%E5%85%94%E5%B0%8F%E8%B4%9D2.json",
+      "jar": "https://v6.gh-proxy.org/https://github.com/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
+    },
+    {
+      "key": "XBPQ_å®å®è¶£å­¦",
+      "name": "ðè¶£å­¦ï½æè²",
+      "type": 3,
+      "api": "csp_Bili2",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.733
+      },
+      "ext": {
+        "json": "https://yydsys.top/duo/json/video_data.json"
+      }
+    },
+    {
+      "key": "å°å¿æè²",
+      "name": "ðå°å¿ï½æè²",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://15487.kstore.space/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.png",
+        "cookie": "https://15487.kstore.space/bl.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "å°å­¦è¯¾å ",
+      "name": "ðå°å­¦ï½è¯¾å ",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://15487.kstore.space/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.png",
+        "cookie": "https://15487.kstore.space/bl.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "åä¸­è¯¾å ",
+      "name": "ðåä¸­ï½è¯¾å ",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://15487.kstore.space/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.png",
+        "cookie": "https://15487.kstore.space/bl.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "é«ä¸­è¯¾å ",
+      "name": "ðé«ä¸­ï½è¯¾å ",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://15487.kstore.space/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.png",
+        "cookie": "https://15487.kstore.space/bl.png"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "å»çå ",
+      "name": "ðå»çï½ç¥è¯",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://15487.kstore.space/%E5%85%BB%E7%94%9F%E5%A0%82.png",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "æ¥ææå­¦",
+      "name": "ðï¸æ¥æï½æå­¦",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "gridview": "0-0-4.1"
+    },
+    {
+      "key": "qixing_cc",
+      "name": "è¯·å¿ç¸ä¿¡è§é¢ä¸­ä»»ä½å¹¿å",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0
     }
   ],
   "lives": [
@@ -3143,6 +4423,229 @@
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "ç¾å å¢¨ä¸çæ¯",
+      "type": 0,
+      "url": "http://82.156.243.185:33389/fwc.m3u"
+    },
+    {
+      "name": "åå¡ä½è²",
+      "type": 0,
+      "url": "https://iptv.catvod.com/kf/catvod.m3u"
+    },
+    {
+      "name": "ðº4Kæ­æ2026ï¼ä¹é£ç ´æµª2026ç´æ­+åæ¾",
+      "type": 0,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "url": "https://mgtv.ottiptv.cc/mglist.m3u?url=https://mgtv.ottiptv.cc"
+    },
+    {
+      "name": "ðºIPTVç´æ­",
+      "type": 0,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "url": "http://1.94.31.214/live/live9/dgtv2026.php"
+    },
+    {
+      "name": "ðºæ¬§æ­ç´æ­",
+      "type": 0,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "url": "https://xn--1221-mb1gy821b.v.nxog.top/m/tv/?ou=2d3"
+    },
+    {
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png",
+      "name": "ðºåªå720P",
+      "type": 0,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "url": "https://15487.kstore.space/%E5%92%AA%E5%92%95720P.txt"
+    },
+    {
+      "name": "ðºåªåç´æ­+ä½è²åç",
+      "type": 0,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "url": "http://101.6.130.52:1234/txt"
+    },
+    {
+      "name": "ðºä½è²èµäºç´æ­",
+      "type": 0,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "url": "http://47.100.99.38:28989/list.m3u"
+    },
+    {
+      "name": "ðºå°æ´äººTVç´æ­",
+      "type": 1,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/taoBox2620/taoBox2620/main/log.png"
+    },
+    {
+      "name": "ðºæ¶æ¶TVç´æ­",
+      "type": 1,
+      "url": "http://38.75.136.137:88/api/tvlist.php"
+    },
+    {
+      "name": "ðºåªåTVç´æ­",
+      "type": 1,
+      "url": "http://www.52top.com.cn:678/downloads/migu.txt"
+    },
+    {
+      "name": "ðºè£¤ä½¬TVç´æ­",
+      "type": 1,
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1"
+    },
+    {
+      "name": "ðºå°ç±³TVç´æ­",
+      "type": 1,
+      "url": "http://47.120.41.246:8899/xinzb.txt"
+    },
+    {
+      "name": "ðºçå­TVç´æ­",
+      "type": 1,
+      "url": "http://wangziduoqing.com/yuan/zb.txt"
+    },
+    {
+      "name": "ðºå®èTVç´æ­",
+      "type": 1,
+      "url": "https://cnb.cool/fgvss/dszb1/-/git/raw/main/zbtv30.txt"
+    },
+    {
+      "name": "ðºæµ·è±TVç´æ­",
+      "type": 0,
+      "ua": "okhttp/5.3.2",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+    },
+    {
+      "name": "ðºä¸­æ¸¯TVç´æ­",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "https://t.freetv.fun/m3u/playlist.txt"
+    },
+    {
+      "name": "ðºå£¹ç±³TVç´æ­",
+      "type": 0,
+      "url": "https://gitee.com/yimi321/ymys/raw/master/lib/tv.png",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+      "timeout": 5,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://11.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "ðºä¸çº¿TVç´æ­",
+      "type": 1,
+      "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u"
+    },
+    {
+      "name": "ðºäºçº¿TVç´æ­",
+      "type": 1,
+      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"
+    },
+    {
+      "name": "ðºä¸çº¿TVç´æ­",
+      "type": 1,
+      "url": "https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u"
+    },
+    {
+      "name": "ðºæ½å®TVç´æ­",
+      "type": 1,
+      "url": "https://ds65.tv1288.xyz"
+    },
+    {
+      "name": "ðºé¦é¨TVç´æ­",
+      "type": 1,
+      "url": "https://wget.la/https://raw.githubusercontent.com/ajqubbs/zhiboyuan/main/%E9%A6%99%E9%9B%A8%E7%9B%B4%E6%92%AD.txt"
+    },
+    {
+      "name": "ðºæ¥åTVç´æ­",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+    {
+      "name": "ðºå¤©ä¸TVç´æ­",
+      "type": 1,
+      "url": "https://ilook.epg.one/5CM5SY98BF24PL/2"
+    },
+    {
+      "name": "ðºæåTVç´æ­",
+      "type": 1,
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+    },
+    {
+      "name": "ðºå¤®è§TVç´æ­",
+      "type": 1,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt"
+    },
+    {
+      "name": "ðºKimentanm",
+      "type": 0,
+      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2
+    },
+    {
+      "name": "ðºdevelop202",
+      "type": 0,
+      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "playerType": 2,
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "ðºèææï¼éå¼å¯V6ç½ç»ï¼",
+      "type": 0,
+      "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
+      "playerType": 2
+    },
+    {
+      "name": "ðºèçä¸èµ·ç",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0"
+    },
+    {
+      "name": "ðºæé±¼ä¸èµ·ç",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0"
+    },
+    {
+      "name": "ðºBç«ç´æ­",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/bililive.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0"
+    },
+    {
+      "name": "ðºYYè½®æ­",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0"
+    },
+    {
+      "name": "ðºæ¥æ¬TVç´æ­{ç¿»}",
+      "type": 0,
+      "ua": "okhttp/5.3.2",
+      "url": "https://web.utako.moe/jp.m3u"
+    },
+    {
+      "name": "ðºæµ·å¤TVç´æ­{ç¿»}",
+      "type": 0,
+      "url": "https://down.nigx.cn/iptv-org.github.io/iptv/index.m3u"
+    },
+    {
+      "name": "ðºJackTVç´æ­{ç¿»}",
+      "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+      }
     }
   ],
   "parses": [
@@ -3583,6 +5086,169 @@
       "name": "夜幕嗅探",
       "type": 0,
       "url": "https://www.yemu.xyz/?url="
+    },
+    {
+      "name": "èå1",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "èå0",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "-å¤±ç çå¤-",
+      "type": 1,
+      "url": "http://154.9.253.211:777/api/?key=RbMD3gulnCTIx61557&url="
+    },
+    {
+      "name": "-éå±±ç»¿æ°´-",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "è¾è®¯",
+          "qiyi",
+          "ç±å¥èº",
+          "å¥èº",
+          "youku",
+          "ä¼é·",
+          "sohu",
+          "æç",
+          "letv",
+          "ä¹è§",
+          "mgtv",
+          "èæ",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905",
+          "NetFilx"
+        ]
+      }
+    },
+    {
+      "name": "-è§£æ1-",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "-è§£æ2-",
+      "type": 0,
+      "url": "https://jx.777jiexi.com/player/?url="
+    },
+    {
+      "name": "-è§£æ5-",
+      "type": 1,
+      "url": "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "è¾è®¯",
+          "qiyi",
+          "ç±å¥èº",
+          "å¥èº",
+          "youku",
+          "ä¼é·",
+          "sohu",
+          "æç",
+          "letv",
+          "ä¹è§",
+          "mgtv",
+          "èæ",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "-è§£æ6-",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "-è§£æ7-",
+      "type": 0,
+      "url": "https://jx.zhanlangbu.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "è¾è®¯",
+          "qiyi",
+          "ç±å¥èº",
+          "å¥èº",
+          "youku",
+          "ä¼é·",
+          "mgtv",
+          "èæ",
+          "letv",
+          "ä¹è§",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "åå©åå©",
+          "åå©"
+        ],
+        "ext": {
+          "header": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+          }
+        }
+      }
+    },
+    {
+      "name": "-è§£æ8-",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "-è§£æ9-",
+      "type": 0,
+      "url": "https://www.kkvip2022.com/vip/jiexi1/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "-å¨ç-",
+      "type": 0,
+      "url": "https://jx.quankan.app/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "-ç±è±-",
+      "type": 0,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://jiejie.uk/"
+        }
+      }
     }
   ],
   "doh": [
@@ -4120,6 +5786,109 @@
         "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
         "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "host": "www.iesdouyin.com",
+      "rule": [
+        "playwm/?video_id="
+      ]
+    },
+    {
+      "host": "www.ysgc.vip",
+      "rule": [
+        "getm3u8?url=http"
+      ]
+    },
+    {
+      "host": "v.douyin.com",
+      "rule": [
+        "playwm/?video_id="
+      ]
+    },
+    {
+      "host": "dyxs20.com",
+      "rule": [
+        ".m3u8"
+      ]
+    },
+    {
+      "host": "www.sharenice.net",
+      "rule": [
+        "http.*?/play.{0,3}\\?[^url]{2,8}=.*",
+        "qianpailive.com",
+        "vid="
+      ]
+    },
+    {
+      "name": "æ´é£",
+      "hosts": [
+        "bfzy",
+        "bfbfvip"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "name": "éå­å¹¿å",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        ".cdnlz",
+        ".cdnlz*"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+[a-z0-9]{18}\\.ts",
+        "[a-z0-9]{18}\\.ts\\s+",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?\\s+[a-z0-9]{18}\\.ts[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "éå¡å¹¿å",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy",
+        ".ffzy*"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?\\s+[0-9]{11}[1-9]{2}.*?\\.ts[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.033333,[\\s\\S]*?#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3.960000",
+        "#EXTINF.*?\\s+.*?1171.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "name": "ç´¢å°¼",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+",
+        "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "name": "å¿«ç",
+      "hosts": [
+        "kuaikan"
+      ],
+      "regex": [
+        "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "æµ·å¤ç",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "10.0099",
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "10.85"
       ]
     }
   ],
