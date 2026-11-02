@@ -34,8 +34,8 @@ tvbox-ysc-config/
 ├── config/sources.json            # 配置源列表（主地址 + 备用地址），可自行增删改
 ├── scripts/update.py              # 核心更新脚本（下载→校验→合并→落盘→更新状态）
 ├── output/                        # 更新产物（由脚本自动生成并提交）
-│   ├── 多仓订阅.json               # 多仓聚合订阅（推荐，App 内可切换各源）
-│   ├── 单仓聚合.json               # 单仓聚合（所有源 sites 合并成一个，开箱即用）
+│   ├── multi.json               # 多仓聚合订阅（推荐，App 内可切换各源）
+│   ├── single.json               # 单仓聚合（所有源 sites 合并成一个，开箱即用）
 │   ├── shield.json                # shields.io 状态徽章数据
 │   ├── status.json                # 各源更新状态（机器可读）
 │   ├── feimao.json / fantaiying.json / ...  # 各源独立配置
@@ -50,8 +50,8 @@ tvbox-ysc-config/
 
 | 类型 | 地址 | 说明 |
 | --- | --- | --- |
-| **多仓订阅（推荐）** | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/多仓订阅.json` | App 内可在各源之间切换 |
-| **单仓聚合** | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/单仓聚合.json` | 所有源站点合并成一个，无需切换 |
+| **多仓订阅（推荐）** | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/multi.json` | App 内可在各源之间切换 |
+| **单仓聚合** | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/single.json` | 所有源站点合并成一个，无需切换 |
 | 单仓 · 肥猫 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json` | 单独使用某一个源 |
 | 单仓 · 饭太硬 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/fantaiying.json` | |
 | 单仓 · 王二小 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json` | |
