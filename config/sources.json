@@ -54,6 +54,13 @@
       "urls": [
         "https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json"
       ]
+    },
+    {
+      "id": "qixing",
+      "name": "七星在线",
+      "urls": [
+        "https://15487.kstore.space/%E4%B8%83%E6%98%9F%E5%9C%A8%E7%BA%BF.txt"
+      ]
     }
   ]
 }
