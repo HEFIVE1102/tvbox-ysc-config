@@ -3,6 +3,13 @@
   "update_interval_hours": 12,
   "sources": [
     {
+      "id": "qiuzhu",
+      "name": "七柱聚合（肥猫生态，229站）",
+      "urls": [
+        "https://raw.githubusercontent.com/qiuzhu682003/tvbox/main/tvbox.json"
+      ]
+    },
+    {
       "id": "feimao",
       "name": "肥猫",
       "urls": [
@@ -57,13 +64,6 @@
       "name": "挺好·厂长糯米线（46站，不卡/秒播）",
       "urls": [
         "https://ztha.top/TVBox/thdjk.json"
-      ]
-    },
-    {
-      "id": "qiuzhu",
-      "name": "七柱聚合（肥猫生态，229站）",
-      "urls": [
-        "https://raw.githubusercontent.com/qiuzhu682003/tvbox/main/tvbox.json"
       ]
     },
     {
