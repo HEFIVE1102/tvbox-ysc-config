@@ -12,10 +12,11 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-09 16:09:30（北京时间） · 成功 **9/9** 个源
+> 🔄 最近更新：2026-11-09 16:14:03（北京时间） · 成功 **9/9** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
+| 七柱聚合（肥猫生态，229站） | ✅ 成功 | `https://raw.githubusercontent.com/qiuzhu682003/tvbox/main/tvbox.json` |
 | 肥猫 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 王二小 | ✅ 成功 | `https://d.kstore.dev/download/9280/wex.json` |
 | 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
@@ -23,7 +24,6 @@
 | 风吹晚晚 | ✅ 成功 | `https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json` |
 | 七星在线 | ✅ 成功 | `https://15487.kstore.space/%E4%B8%83%E6%98%9F%E5%9C%A8%E7%BA%BF.txt` |
 | 挺好·厂长糯米线（46站，不卡/秒播） | ✅ 成功 | `https://ztha.top/TVBox/thdjk.json` |
-| 七柱聚合（肥猫生态，229站） | ✅ 成功 | `https://raw.githubusercontent.com/qiuzhu682003/tvbox/main/tvbox.json` |
 | ewctt 合集（178站） | ✅ 成功 | `https://raw.githubusercontent.com/ewctt/tvbox/main/test/api.json` |
 <!-- STATUS_END -->
 

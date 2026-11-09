@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-09 16:09:30",
+  "updated_at": "2026-11-09 16:14:03",
   "repo": "HEFIVE1102/tvbox-ysc-config",
   "sources": [
+    {
+      "id": "qiuzhu",
+      "name": "七柱聚合（肥猫生态，229站）",
+      "ok": true,
+      "used_url": "https://raw.githubusercontent.com/qiuzhu682003/tvbox/main/tvbox.json",
+      "error": null
+    },
     {
       "id": "feimao",
       "name": "肥猫",
@@ -50,13 +57,6 @@
       "name": "挺好·厂长糯米线（46站，不卡/秒播）",
       "ok": true,
       "used_url": "https://ztha.top/TVBox/thdjk.json",
-      "error": null
-    },
-    {
-      "id": "qiuzhu",
-      "name": "七柱聚合（肥猫生态，229站）",
-      "ok": true,
-      "used_url": "https://raw.githubusercontent.com/qiuzhu682003/tvbox/main/tvbox.json",
       "error": null
     },
     {
