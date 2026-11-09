@@ -77,6 +77,48 @@ def normalize_display_names(data: dict) -> dict:
     return data
 
 
+# 成人/敏感内容过滤：站点或直播源的 name/key 命中关键词即剔除该条目。
+# 关键词表放 config/blocklist.txt（每行一个，# 开头为注释），可随时增删；文件缺失时用内置表。
+# ponytail: 只看顶层 name/key，不递归进 lives 的 channels 子列表——上游把成人频道藏在
+# 直播分组里时漏网，确有实例再把 lives 展平成 [(分组名, 频道名)] 再筛。
+BLOCKLIST_FILE = os.path.join(ROOT, "config", "blocklist.txt")
+DEFAULT_BLOCKLIST = (
+    "成人", "18+", "情色", "麻豆", "香蕉", "猫咪", "水果派", "黄仓库",
+    "国产传媒", "国产自拍", "传媒", "伦理", "写真", "里番", "无码", "三级",
+    "色情", "淫", "裸", "福利", "午夜", "约炮", "AV", "SEX", "Sex", "性爱",
+)
+
+
+def load_blocklist() -> tuple:
+    try:
+        with open(BLOCKLIST_FILE, "r", encoding="utf-8") as f:
+            words = [ln.strip() for ln in f if ln.strip() and not ln.lstrip().startswith("#")]
+        return tuple(words) or DEFAULT_BLOCKLIST
+    except OSError:
+        return DEFAULT_BLOCKLIST
+
+
+def sanitize(data: dict) -> dict:
+    """剔除 sites/lives 中命中敏感关键词的条目（抓取与缓存两条路径都过这里）。"""
+    words = load_blocklist()
+    data = dict(data)
+    for field in ("sites", "lives"):
+        items = data.get(field)
+        if not isinstance(items, list):
+            continue
+        kept = []
+        for item in items:
+            if isinstance(item, dict):
+                text = f"{item.get('name', '')} {item.get('key', '')}"
+                hit = next((w for w in words if w in text), None)
+                if hit:
+                    print(f"      [FILTER] 剔除{field}条目 {item.get('key') or item.get('name')}（命中“{hit}”）")
+                    continue
+            kept.append(item)
+        data[field] = kept
+    return data
+
+
 def _strip_js_comments(text: str) -> str:
     """剔除 JSON 中内嵌的 // 行注释（部分接口会在字段后追加免责注释）。"""
     lines = text.split("\n")
@@ -163,7 +205,7 @@ def fetch_config(url: str) -> dict:
             data = parse_json_lenient(resp.text)
             if not is_valid_tvbox_config(data):
                 raise ValueError("返回内容不是 TVBox 配置（缺少 sites/spiders/lives 等字段）")
-            return normalize_display_names(data)
+            return sanitize(normalize_display_names(data))
         except Exception as e:  # noqa: BLE001
             last_err = e
             text_len = len(getattr(resp, "text", "") or "") if "resp" in locals() else -1
@@ -358,7 +400,7 @@ def main() -> int:
             if os.path.exists(cache_path):
                 try:
                     with open(cache_path, "r", encoding="utf-8") as f:
-                        cached = json.load(f)
+                        cached = sanitize(json.load(f))
                     if is_valid_tvbox_config(cached):
                         subscriptions.append(
                             {"name": name, "url": f"{raw_base}/{sid}.json"}
