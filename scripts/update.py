@@ -109,7 +109,7 @@ def sanitize(data: dict) -> dict:
         kept = []
         for item in items:
             if isinstance(item, dict):
-                text = f"{item.get('name', '')} {item.get('key', '')}"
+                text = f"{item.get('name', '')} {item.get('key', '')} {item.get('api', '')}"
                 hit = next((w for w in words if w in text), None)
                 if hit:
                     print(f"      [FILTER] 剔除{field}条目 {item.get('key') or item.get('name')}（命中“{hit}”）")
