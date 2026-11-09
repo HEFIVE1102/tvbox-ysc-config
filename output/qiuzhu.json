@@ -33,39 +33,6 @@
       "jar": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "PanMarket",
-      "name": "🐼┃网盘┃应用",
-      "type": 3,
-      "api": "csp_PanMarket",
-      "searchable": 0,
-      "style": {
-        "type": "list"
-      },
-      "ext": {
-        "categories": [
-          {
-            "name": "Fongmi影视",
-            "url": "https://pan.quark.cn/s/7129866d8655"
-          },
-          {
-            "name": "OK影视",
-            "url": "https://pan.quark.cn/s/cc286c991136"
-          },
-          {
-            "name": "Kazumi",
-            "url": "https://pan.quark.cn/s/e77ca870e15e"
-          },
-          {
-            "name": "LxMusic",
-            "url": "https://pan.quark.cn/s/c24085164146"
-          }
-        ]
-      },
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
       "key": "alllive",
       "name": "🎮┃游戏┃直播",
       "type": 3,
@@ -636,19 +603,6 @@
       "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
     },
     {
-      "key": "seed",
-      "name": "💡聚剧┃四盘 「qist-f」",
-      "type": 3,
-      "api": "csp_SeedhubGuard",
-      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "indexs": 0,
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
       "key": "光影",
       "name": "🌞光影┃不卡 「qist-f」",
       "type": 3,
@@ -1029,42 +983,6 @@
       "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
     },
     {
-      "key": "ZPan",
-      "name": "🎈盘搜┃四盘 「qist-f」",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "http://107.173.211.148/"
-      },
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
-      "key": "JPan",
-      "name": "🦋易搜┃四盘 「qist-f」",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "https://so.252035.xyz/"
-      },
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
       "key": "YpanSo",
       "name": "🐌盘她┃夸父 「qist-f」",
       "type": 3,
@@ -1083,34 +1001,6 @@
       "name": "🐞盘他┃嘟嘟 「qist-f」",
       "type": 3,
       "api": "csp_BpanSoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
-      "key": "抠搜",
-      "name": "🌶️抠抠┃搜搜 「qist-f」",
-      "type": 3,
-      "api": "csp_KkSsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
-      "key": "UC",
-      "name": "🌈优汐┃搜搜 「qist-f」",
-      "type": 3,
-      "api": "csp_UuSsGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -2353,16 +2243,6 @@
         "ratio": 1.433
       },
       "quickSearch": 1
-    },
-    {
-      "key": "觅盘",
-      "name": "觅盘 • 搜索 「qist-j」",
-      "type": 3,
-      "api": "csp_MiPan",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60
     },
     {
       "key": "酷乐",

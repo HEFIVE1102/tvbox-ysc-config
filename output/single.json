@@ -49,39 +49,6 @@
       "jar": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
     },
     {
-      "key": "PanMarket",
-      "name": "🐼┃网盘┃应用",
-      "type": 3,
-      "api": "csp_PanMarket",
-      "searchable": 0,
-      "style": {
-        "type": "list"
-      },
-      "ext": {
-        "categories": [
-          {
-            "name": "Fongmi影视",
-            "url": "https://pan.quark.cn/s/7129866d8655"
-          },
-          {
-            "name": "OK影视",
-            "url": "https://pan.quark.cn/s/cc286c991136"
-          },
-          {
-            "name": "Kazumi",
-            "url": "https://pan.quark.cn/s/e77ca870e15e"
-          },
-          {
-            "name": "LxMusic",
-            "url": "https://pan.quark.cn/s/c24085164146"
-          }
-        ]
-      },
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
-    },
-    {
       "key": "alllive",
       "name": "🎮┃游戏┃直播",
       "type": 3,
@@ -652,19 +619,6 @@
       "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
     },
     {
-      "key": "seed",
-      "name": "💡聚剧┃四盘 「qist-f」",
-      "type": 3,
-      "api": "csp_SeedhubGuard",
-      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "indexs": 0,
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
       "key": "光影",
       "name": "🌞光影┃不卡 「qist-f」",
       "type": 3,
@@ -1045,42 +999,6 @@
       "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
     },
     {
-      "key": "ZPan",
-      "name": "🎈盘搜┃四盘 「qist-f」",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "http://107.173.211.148/"
-      },
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
-      "key": "JPan",
-      "name": "🦋易搜┃四盘 「qist-f」",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "https://so.252035.xyz/"
-      },
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
       "key": "YpanSo",
       "name": "🐌盘她┃夸父 「qist-f」",
       "type": 3,
@@ -1099,34 +1017,6 @@
       "name": "🐞盘他┃嘟嘟 「qist-f」",
       "type": 3,
       "api": "csp_BpanSoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
-      "key": "抠搜",
-      "name": "🌶️抠抠┃搜搜 「qist-f」",
-      "type": 3,
-      "api": "csp_KkSsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      },
-      "filterable": 1,
-      "jar": "https://gh-proxy.com/raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
-    },
-    {
-      "key": "UC",
-      "name": "🌈优汐┃搜搜 「qist-f」",
-      "type": 3,
-      "api": "csp_UuSsGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -2371,16 +2261,6 @@
       "quickSearch": 1
     },
     {
-      "key": "觅盘",
-      "name": "觅盘 • 搜索 「qist-j」",
-      "type": 3,
-      "api": "csp_MiPan",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60
-    },
-    {
       "key": "酷乐",
       "name": "酷乐 • 搜索 「qist-j」",
       "type": 3,
@@ -3360,32 +3240,6 @@
       "playerType": 2
     },
     {
-      "key": "feimao_PanMarket",
-      "name": "🐼┃网盘┃应用",
-      "type": 3,
-      "api": "csp_PanMarket",
-      "searchable": 0,
-      "style": {
-        "type": "list"
-      },
-      "ext": {
-        "categories": [
-          {
-            "name": "Fongmi影视",
-            "url": "https://pan.quark.cn/s/7129866d8655"
-          },
-          {
-            "name": "OK影视",
-            "url": "https://pan.quark.cn/s/cc286c991136"
-          },
-          {
-            "name": "Kazumi",
-            "url": "https://pan.quark.cn/s/e77ca870e15e"
-          }
-        ]
-      }
-    },
-    {
       "key": "feimao_alllive",
       "name": "🎮┃游戏┃直播",
       "type": 3,
@@ -3701,13 +3555,6 @@
       "type": 3,
       "api": "csp_MiSou",
       "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
-    },
-    {
-      "key": "csp_PanSearch",
-      "name": "🚃┃盘搜┃网盘",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
     {
       "key": "儿童",
@@ -4304,14 +4151,6 @@
       "name": "🎠海音┃综合🎠",
       "type": 3,
       "api": "csp_WexHaiYinsoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "Wex97pansoGuard",
-      "name": "🎠九七┃综合🎠",
-      "type": 3,
-      "api": "csp_Wex97pansoGuard",
       "searchable": 1,
       "changeable": 0
     },
@@ -4962,30 +4801,10 @@
       "jar": "http://rihou.vip:55/lib/ttkx.jar;md5;c253e1930a210fa5141e5418f1f90949"
     },
     {
-      "key": "PanSou",
-      "name": "🦊┃盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-    },
-    {
       "key": "UpYun",
       "name": "😻┃Up搜┃搜索",
       "type": 3,
       "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-    },
-    {
-      "key": "PanSearch",
-      "name": "🙀┃盘Se┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -5096,7 +4915,7 @@
       "changeable": 0
     },
     {
-      "key": "gaops_seed",
+      "key": "seed",
       "name": "💡聚剧剧┃三盘",
       "type": 3,
       "api": "csp_SeedhubGuard",
@@ -5104,22 +4923,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "gaops_ZPan",
-      "name": "🎈聚盘搜┃三盘",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "http://38.55.131.86:82/"
-      },
       "indexs": 0,
       "style": {
         "type": "list"
@@ -5443,30 +5246,6 @@
       }
     },
     {
-      "key": "gaops_抠搜",
-      "name": "🍄抠抠┃搜搜",
-      "type": 3,
-      "api": "csp_KkSsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
-    },
-    {
-      "key": "gaops_UC",
-      "name": "🌈优汐┃搜搜",
-      "type": 3,
-      "api": "csp_UuSsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
-    },
-    {
       "key": "gaops_米搜",
       "name": "🦋米搜┃优夸",
       "type": 3,
@@ -5721,36 +5500,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
-    },
-    {
-      "key": "fswws_seed",
-      "name": "💡聚剧剧┃四盘",
-      "type": 3,
-      "api": "csp_SeedhubGuard",
-      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "fswws_ZPan",
-      "name": "🎈聚盘搜┃四盘",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "http://107.173.211.148/"
-      },
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
     },
     {
       "key": "fswws_云播",
@@ -7526,36 +7275,6 @@
       "changeable": 0
     },
     {
-      "key": "thdjk_seed",
-      "name": "💡聚剧剧┃四盘",
-      "type": 3,
-      "api": "csp_SeedhubGuard",
-      "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "thdjk_ZPan",
-      "name": "🎈聚盘搜┃四盘",
-      "type": 3,
-      "api": "csp_S_zpsGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "http://107.173.211.148/"
-      },
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "thdjk_光影",
       "name": "🌞光影┃不卡",
       "type": 3,
@@ -7886,30 +7605,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
-    },
-    {
-      "key": "thdjk_抠搜",
-      "name": "🍄抠抠┃搜搜",
-      "type": 3,
-      "api": "csp_KkSsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
-    },
-    {
-      "key": "thdjk_UC",
-      "name": "🌈优汐┃搜搜",
-      "type": 3,
-      "api": "csp_UuSsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
     },
     {
       "key": "thdjk_YpanSo",
@@ -9804,7 +9499,7 @@
       "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/quarkShare.json"
     },
     {
-      "key": "ewctt_UC",
+      "key": "UC",
       "name": "UC｜云盘",
       "type": 3,
       "api": "csp_PanUc",
