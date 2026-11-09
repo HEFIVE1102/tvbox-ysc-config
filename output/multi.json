@@ -9,10 +9,6 @@
       "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/wangerxiao.json"
     },
     {
-      "name": "讴歌",
-      "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/ouge.json"
-    },
-    {
       "name": "4K小盒子",
       "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/4k.json"
     },
@@ -31,6 +27,14 @@
     {
       "name": "挺好·厂长糯米线（46站，不卡/秒播）",
       "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/thdjk.json"
+    },
+    {
+      "name": "七柱聚合（肥猫生态，229站）",
+      "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/qiuzhu.json"
+    },
+    {
+      "name": "ewctt 合集（178站）",
+      "url": "https://raw.githubusercontent.com/HEFIVE1102/tvbox-ysc-config/main/output/ewctt.json"
     }
   ]
 }
